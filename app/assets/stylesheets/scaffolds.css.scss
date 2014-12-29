@@ -1,0 +1,93 @@
+body {
+  background-color: #2D2D2D;
+  color: #CCCCCC;
+  font-family: Gotham Book;
+  font-size: 32px;
+  line-height: 32px;
+  .floatedTable {float:left;border:2px solid #B87333;width:48%}
+  .paddedTable {float:left;border:0px solid #2D2D2D;width:2%}
+}
+
+	
+td{
+ text-align: left;
+}
+
+p, ol, ul td{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: white;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#KegLine
+{
+	color: #CD7F32;
+	font-size: 20px;
+}
+
+#KegNumber
+{
+	color: #CD7F32;
+}
+
+#brewery
+{
+	color: #B87333
+}
+
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
